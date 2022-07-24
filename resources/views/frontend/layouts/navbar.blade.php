@@ -1,10 +1,9 @@
 <header class="header">
 
-    <a href="#" class="logo"><span>b</span>logger</a>
+    <a href="{{ route('home') }}" class="logo"><span>b</span>logger</a>
 
     <nav class="navbar">
-        <a href="#banner">banner</a>
-        <a href="#posts">my posts</a>
+        <a href="{{ route('my.post') }}">my posts</a>
         <a href="#contact">contact me</a>
     </nav>
 
