@@ -2,12 +2,8 @@
 
 @section('content')
 
-<!-- banner section starts  -->
-<!-- @include('frontend.contact.components.banner') -->
-<!-- banner section ends -->
-
 <!-- contact section starts  -->
-@include('frontend.contact.components.contact')
+@include('frontend.contact.components.contact_form')
 <!-- contact section ends -->
 
 @endsection
